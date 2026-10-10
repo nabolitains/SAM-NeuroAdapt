@@ -42,8 +42,8 @@ keywords:
   - neuroimaging
 license: MIT
 version: "1.0.0"
-# doi: "10.5281/zenodo.XXXXXXX"      # added after Zenodo archiving
-# date-released: "2026-XX-XX"
+doi: "10.5281/zenodo.23287123"
+date-released: "2026-10-10"
 
 # Once the article is published:
 # preferred-citation:

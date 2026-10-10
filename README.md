@@ -2,6 +2,8 @@
 
 **Atlas-guided, training-free brain extraction (skull-stripping) for infant and adult MRI.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23287123.svg)](https://doi.org/10.5281/zenodo.23287123)
+
 Source code accompanying the manuscript *"SAM-NeuroAdapt: an atlas-guided, training-free
 pipeline for skull-stripping in infant and adult MRI"* (submitted to *Brain Informatics*).
 
@@ -142,7 +144,10 @@ other known issues, with detection snippets.
 
 ## Citation
 
-If you use this code, please cite the accompanying article (see `CITATION.cff`).
+If you use this code, please cite the accompanying article and the archived software
+(see `CITATION.cff`). Version used in the article: release v1.0.0,
+[doi:10.5281/zenodo.23287124](https://doi.org/10.5281/zenodo.23287124); all versions:
+[doi:10.5281/zenodo.23287123](https://doi.org/10.5281/zenodo.23287123).
 
 ## Licence
 
