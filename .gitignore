@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Data, atlases, model weights and results are NEVER committed.
+# Each folder keeps only its README.md, which explains what to download.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+
+datasets/*
+!datasets/README.md
+
+dataset/*
+!dataset/README.md
+!dataset/atlas_library/
+dataset/atlas_library/*
+!dataset/atlas_library/README.md
+!dataset/raw_external_atlases/
+dataset/raw_external_atlases/*
+!dataset/raw_external_atlases/README.md
+!dataset/raw_external_atlases/fetal/
+dataset/raw_external_atlases/fetal/*
+!dataset/raw_external_atlases/fetal/README.md
+
+sam_neuroadapt_v2_real_atlases/*
+!sam_neuroadapt_v2_real_atlases/README.md
+!sam_neuroadapt_v2_real_atlases/models/
+sam_neuroadapt_v2_real_atlases/models/*
+!sam_neuroadapt_v2_real_atlases/models/README.md
+!sam_neuroadapt_v2_real_atlases/atlases/
+sam_neuroadapt_v2_real_atlases/atlases/*
+!sam_neuroadapt_v2_real_atlases/atlases/README.md
+
+resources/*
+!resources/README.md
+
+outputs/
+sam2/
+
+# Imaging volumes, weights and archives, wherever they are
+*.nii
+*.nii.gz
+*.mgz
+*.hdr
+*.img
+*.dcm
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.zip
+*.tgz
+*.tar.gz

@@ -1,0 +1,63 @@
+# Citation metadata (GitHub shows a "Cite this repository" button).
+# ORCID identifiers, the Zenodo DOI and the article reference are added once available.
+cff-version: 1.2.0
+title: "SAM-NeuroAdapt: an atlas-guided, training-free pipeline for skull-stripping in infant and adult MRI"
+message: "If you use this software, please cite both the software and the accompanying article."
+type: software
+authors:
+  - given-names: "Charmarke"
+    family-names: "Moussa Abdi"
+    affiliation: "L3IA Laboratory, Faculty of Sciences Dhar El Mahraz, Sidi Mohamed Ben Abdellah University, Fes, Morocco"
+    email: "charmake.moussaabdi@usmba.ac.ma"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: "Fatima-Ezzahraa"
+    family-names: "Ben-Bouazza"
+    affiliation: "BRET Lab, Mohammed VI University of Sciences and Health (UM6SS), Casablanca, Morocco"
+    email: "fatimaezzahraa.benbouazza@uhp.ac.ma"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: "Ali"
+    family-names: "Yahyaouy"
+    affiliation: "L3IA Laboratory, Faculty of Sciences Dhar El Mahraz, Sidi Mohamed Ben Abdellah University, Fes, Morocco"
+    email: "ali.yahyaouy@usmba.ac.ma"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: "Zakaria"
+    family-names: "Said"
+    affiliation: "Mathematical Analysis and Applications Laboratory, Sidi Mohamed Ben Abdellah University, Fes, Morocco"
+    email: "zakaria.said@usmba.ac.ma"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/nabolitains/SAM-NeuroAdapt"
+abstract: >-
+  A brain-extraction pipeline that uses no task-specific model training: a template is
+  selected from a 21-atlas lifespan library (by recorded age when available), registered to
+  the subject, and used to prompt a frozen Segment Anything Model 2; the mask is then refined
+  by classical intensity-based methods. A stage-wise ablation shows that the matched atlas,
+  rather than the foundation model, drives overlap accuracy and contains failures.
+keywords:
+  - skull-stripping
+  - brain extraction
+  - Segment Anything Model
+  - zero-shot segmentation
+  - multi-atlas registration
+  - reproducibility
+  - neuroimaging
+license: MIT
+version: "1.0.0"
+# doi: "10.5281/zenodo.XXXXXXX"      # added after Zenodo archiving
+# date-released: "2026-XX-XX"
+
+# Once the article is published:
+# preferred-citation:
+#   type: article
+#   title: "SAM-NeuroAdapt: an atlas-guided, training-free pipeline for skull-stripping in infant and adult MRI"
+#   journal: "Brain Informatics"
+#   year: 2026
+#   doi: "10.1186/s40708-0XX-XXXXX-X"
+#   authors:
+#     - given-names: "Charmarke"
+#       family-names: "Moussa Abdi"
+#     - given-names: "Fatima-Ezzahraa"
+#       family-names: "Ben-Bouazza"
+#     - given-names: "Ali"
+#       family-names: "Yahyaouy"
+#     - given-names: "Zakaria"
+#       family-names: "Said"
